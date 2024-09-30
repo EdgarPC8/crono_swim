@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:text="Registrar Nadador" />
+    <EditText
+        android:id="@+id/campoCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:hint="Ingrese la Cedula" />
+    <EditText
+        android:id="@+id/campoPrimerNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text|textNoSuggestions"
+        android:hint="Ingrese el primer Nombre" />
+    <EditText
+        android:id="@+id/campoSegundoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text|textNoSuggestions"
+        android:hint="Ingrese el segundo Nombre" />
+    <EditText
+        android:id="@+id/campoPrimerApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text|textNoSuggestions"
+        android:hint="Ingrese el primer Apellido" />
+    <EditText
+        android:id="@+id/campoSegundoApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text|textNoSuggestions"
+        android:hint="Ingrese el segundo Apellido" />
+    <EditText
+        android:id="@+id/campoGrupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:digits="1234"
+        android:maxLength="1"
+        android:hint="Ingrese el Grupo 1,2,3,4" />
+    <EditText
+        android:id="@+id/campoGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:maxLength="1"
+        android:hint="Ingrese el Genero" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Fecha de Nacimiento"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/campoDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:maxLength="2"
+            android:gravity="center"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:hint="Dia" />
+        <EditText
+            android:id="@+id/campoMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:maxLength="2"
+            android:gravity="center"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:hint="Mes" />
+        <EditText
+            android:id="@+id/campoAnio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:maxLength="4"
+            android:gravity="center"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:hint="Año" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnPrimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar " />
+
+</LinearLayout>

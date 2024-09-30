@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnConsultarNadador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Nadador" />
+
+    <Button
+        android:id="@+id/btnConsultarPruebas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Pruebas" />
+
+    <Button
+        android:id="@+id/btnConsultarTiempos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Tiempos" />
+    <Button
+        android:id="@+id/btnConsultarMetros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Metros" />
+
+
+</LinearLayout>

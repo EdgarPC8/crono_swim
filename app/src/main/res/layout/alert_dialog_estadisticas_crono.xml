@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/viewNombre"
+        android:gravity="center"
+        android:text="Edgar Torres 0Metros Estilo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+<!--        <TextView-->
+<!--            android:id="@+id/viewVelocidad"-->
+<!--            android:layout_width="125dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:gravity="left"-->
+<!--            android:text="0m/s"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/viewRendimiento"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:gravity="left"-->
+<!--            android:text="0%"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold" />-->
+        <TextView
+            android:id="@+id/viewInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:text="Info"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/viewVueltas"
+        android:gravity="center"
+        android:text="Aqui van la vuestas de los tiempos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prueba: "/>
+        <Spinner
+            android:id="@+id/comboPrueba"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metros: "/>
+        <Spinner
+            android:id="@+id/combo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="100px"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"/>
+    <Button
+        android:id="@+id/btnCambiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar"/>
+    <Button
+        android:id="@+id/btnPosicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posicion"/>
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Tiempo"/>
+    <Button
+        android:id="@+id/btnGuardarAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Vueltas"/>
+</LinearLayout>
